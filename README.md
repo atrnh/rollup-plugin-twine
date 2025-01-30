@@ -24,9 +24,10 @@ export default {
 };
 ```
 
-#### Output
+Running `rollup -c` will output a `format.js` file in the `dist` directory.
 
 ```js
+// dist/format.js
 window.storyFormat({
   "name": "Format name",
   "version": "0.0.0",
