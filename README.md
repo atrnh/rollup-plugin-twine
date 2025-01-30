@@ -6,6 +6,7 @@ A Rollup plugin for compiling [Twine](https://twinery.org/) story formats.
 
 ```js
 // rollup.config.js
+import iife from "rollup-plugin-iife";
 import twine from "rollup-plugin-twine";
 
 export default {
